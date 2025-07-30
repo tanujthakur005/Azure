@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Core Services - Your Complete Cloud Transformation Partner</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .service-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .service-card:hover { transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+        .azure-blue { color: #0078d4; }
+        .azure-gradient { background: linear-gradient(135deg, #0078d4 0%, #00bcf2 100%); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-6">Transform Your Business with Azure</h1>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Your trusted partner for comprehensive Azure cloud services, migration, and modernization. Accelerate innovation, reduce costs, and scale with confidence.</p>
+            <div class="flex justify-center space-x-4">
+                <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                    <i class="fas fa-rocket mr-2"></i>Start Your Journey
+                </button>
+                <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">
+                    <i class="fas fa-phone mr-2"></i>Schedule Consultation
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Core Services Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Azure Core Services We Deliver</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive solutions designed to accelerate your digital transformation and maximize your Azure investment</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="azure-gradient w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-drafting-compass text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Azure Cloud Strategy & Architecture</h3>
+                    <p class="text-gray-600 mb-6">Design secure, scalable, and future-ready Azure environments tailored to your business objectives.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Cloud readiness assessments</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Architecture blueprints</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Landing zones & governance models</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="azure-gradient w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-cloud-upload-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Cloud Migration & Modernization</h3>
+                    <p class="text-gray-600 mb-6">Seamless migration from on-premises or other cloud platforms to Azure with minimal disruption.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>On-prem, AWS, and cross-tenant Azure migrations</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Application rehosting, refactoring, and rearchitecting</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Azure Migrate & ARC integration</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="azure-gradient w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-code-branch text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Azure DevOps & Automation</h3>
+                    <p class="text-gray-600 mb-6">Streamline your software delivery pipeline with modern CI/CD practices.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Azure DevOps, GitHub Actions, Jenkins, GitLab CI/CD</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Infrastructure as Code (ARM/Bicep/Terraform)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Automated build, test, and release pipelines</li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="azure-gradient w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-shield-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Security, Compliance & Governance</h3>
+                    <p class="text-gray-600 mb-6">Build secure and compliant cloud environments with Microsoft best practices.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Azure Policy & Blueprints</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Identity & Access Management (Azure AD, RBAC, Conditional Access)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Zero Trust implementation and threat protection</li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="azure-gradient w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Cost Optimization & Monitoring</h3>
+                    <p class="text-gray-600 mb-6">Gain full visibility and control over your cloud spend and performance.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Azure Cost Management & Budgets</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Right-sizing, reserved instances, and automation</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Real-time monitoring via Log Analytics, App Insights, and Azure Monitor</li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="azure-gradient w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-brain text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Azure AI, Data & Analytics Solutions</h3>
+                    <p class="text-gray-600 mb-6">Unlock insights and drive innovation using Azure's intelligent services.</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Azure Synapse, Data Factory, Data Lake</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Azure OpenAI, Machine Learning & Cognitive Services</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle azure-blue mr-2"></i>Power BI integration and real-time dashboards</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Migration Services Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4"><i class="fas fa-cloud text-blue-600 mr-4"></i>Cloud Migration Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Expert migration services to move your workloads to Azure efficiently, securely, and with minimal downtime</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Migration Service 1 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-server text-blue-600 text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">On-Premises to Azure Migration</h3>
+                            <p class="text-blue-600 font-medium">Move smarter. Migrate faster. Modernize better.</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">Transition your legacy infrastructure, applications, and databases from traditional on-premises data centers to Azure with minimal risk and downtime.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Assessment and planning tailored to your environment</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Lift-and-shift or modernization approach (rehost, refactor, rearchitect)</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Secure data migration with integrity and continuity</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Post-migration support and optimization</span></li>
+                    </ul>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="text-sm text-blue-800"><strong>Ideal for:</strong> Enterprises modernizing legacy systems, reducing hardware costs, improving scalability, and enhancing disaster recovery.</p>
+                    </div>
+                </div>
+
+                <!-- Migration Service 2 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-orange-100 w-16 h-16 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-exchange-alt text-orange-600 text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">AWS to Azure Migration</h3>
+                            <p class="text-orange-600 font-medium">Cross-cloud migration done right.</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">Switching cloud providers? Our team specializes in migrating workloads from AWS to Azure while maintaining compliance, performance, and cost-efficiency.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Workload assessment and cloud fit analysis</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Mapping AWS services to equivalent (or better) Azure offerings</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Reconfiguration and performance tuning on Azure</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Licensing and cost optimization during and post-migration</span></li>
+                    </ul>
+                    <div class="bg-orange-50 p-4 rounded-lg">
+                        <p class="text-sm text-orange-800"><strong>Ideal for:</strong> Organizations consolidating cloud vendors, optimizing costs, or aligning with Microsoft-first strategies.</p>
+                    </div>
+                </div>
+
+                <!-- Migration Service 3 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-purple-100 w-16 h-16 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-sync-alt text-purple-600 text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">Azure to Azure Migration</h3>
+                            <p class="text-purple-600 font-medium">Restructure, reorganize, and optimize within Azure.</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">Handle internal Azure migration scenarios including subscription to subscription, tenant to tenant (M&A), and region-to-region migrations.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">ARM template and Bicep-based migrations</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Resource tagging, governance, and RBAC restructuring</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Zero-downtime strategies using Azure-native tools</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Compliance and performance optimization</span></li>
+                    </ul>
+                    <div class="bg-purple-50 p-4 rounded-lg">
+                        <p class="text-sm text-purple-800"><strong>Ideal for:</strong> Businesses restructuring IT environments or managing mergers/acquisitions in Azure.</p>
+                    </div>
+                </div>
+
+                <!-- Migration Service 4 -->
+                <div class="bg-white rounded-xl shadow-lg p-8 border border-gray-100">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mr-4">
+                            <i class="fas fa-rocket text-green-600 text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800">Cloud Implementation & Deployment</h3>
+                            <p class="text-green-600 font-medium">Build a future-ready cloud foundation.</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">Design, implement, and deploy fully optimized Azure environments for applications, data platforms, or enterprise infrastructure.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">End-to-end Azure setup: networking, storage, compute</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Landing zone creation following Microsoft's CAF</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Application and microservices deployment</span></li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mr-3 mt-1"></i><span class="text-gray-700">Security, compliance, monitoring, and DevOps integration</span></li>
+                    </ul>
+                    <div class="bg-green-50 p-4 rounded-lg">
+                        <p class="text-sm text-green-800"><strong>Ideal for:</strong> Startups, ISVs, or enterprises building greenfield projects or optimizing cloud-first strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Why Choose Our Azure Services?</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Proven expertise, industry best practices, and a commitment to your success</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="azure-gradient w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-award text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Certified Expertise</h3>
+                    <p class="text-gray-600">Microsoft-certified professionals with deep Azure knowledge and real-world experience across industries.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="azure-gradient w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-clock text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">Faster Time-to-Value</h3>
+                    <p class="text-gray-600">Accelerated deployment and migration timelines with minimal business disruption and maximum ROI.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="azure-gradient w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-handshake text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-800">End-to-End Support</h3>
+                    <p class="text-gray-600">Complete lifecycle support from initial assessment through post-deployment optimization and ongoing management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 gradient-bg text-white">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold mb-6">Ready to Transform Your Business with Azure?</h2>
+                <p class="text-xl mb-8">Join hundreds of organizations who have successfully modernized their infrastructure and accelerated innovation with our Azure services.</p>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="bg-white bg-opacity-10 rounded-lg p-6">
+                        <div class="text-3xl font-bold mb-2">500+</div>
+                        <div class="text-lg">Successful Migrations</div>
+                    </div>
+                    <div class="bg-white bg-opacity-10 rounded-lg p-6">
+                        <div class="text-3xl font-bold mb-2">99.9%</div>
+                        <div class="text-lg">Uptime Achievement</div>
+                    </div>
+                    <div class="bg-white bg-opacity-10 rounded-lg p-6">
+                        <div class="text-3xl font-bold mb-2">40%</div>
+                        <div class="text-lg">Average Cost Reduction</div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <button class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition duration-300">
+                        <i class="fas fa-calendar-alt mr-2"></i>Book Free Consultation
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-600 transition duration-300">
+                        <i class="fas fa-download mr-2"></i>Download Service Guide
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Get Started Today</h2>
+                    <p class="text-lg text-gray-300 mb-8">Connect with our Azure experts to discuss your specific requirements and develop a customized cloud strategy.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-blue-400 text-xl mr-4"></i>
+                            <span class="text-lg">+1 (555) 123-4567</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-blue-400 text-xl mr-4"></i>
+                            <span class="text-lg">azure@yourcompany.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-globe text-blue-400 text-xl mr-4"></i>
+                            <span class="text-lg">www.yourcompany.com/azure</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-700 rounded-xl p-8">
+                    <h3 class="text-2xl font-semibold mb-6">Quick Assessment</h3>
+                    <form class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="First Name" class="w-full px-4 py-3 rounded-lg bg-gray-600 text-white placeholder-gray-400 border border-gray-500 focus:border-blue-400 focus:outline-none">
+                            <input type="text" placeholder="Last Name" class="w-full px-4 py-3 rounded-lg bg-gray-600 text-white placeholder-gray-400 border border-gray-500 focus:border-blue-400 focus:outline-none">
+                        </div>
+                        <input type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded-lg bg-gray-600 text-white placeholder-gray-400 border border-gray-500 focus:border-blue-400 focus:outline-none">
+                        <input type="text" placeholder="Company Name" class="w-full px-4 py-3 rounded-lg bg-gray-600 text-white placeholder-gray-400 border border-gray-500 focus:border-blue-400 focus:outline-none">
+                        <select class="w-full px-4 py-3 rounded-lg bg-gray-600 text-white border border-gray-500 focus:border-blue-400 focus:outline-none">
+                            <option>Service Interest</option>
+                            <option>Cloud Migration</option>
+                            <option>Azure Architecture</option>
+                            <option>DevOps & Automation</option>
+                            <option>Security & Compliance</option>
+                            <option>Cost Optimization</option>
+                            <option>AI & Analytics</option>
+                        </select>
+                        <textarea placeholder="Tell us about your current infrastructure and goals..." rows="4" class="w-full px-4 py-3 rounded-lg bg-gray-600 text-white placeholder-gray-400 border border-gray-500 focus:border-blue-400 focus:outline-none resize-none"></textarea>
+                        <button type="submit" class="w-full azure-gradient text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition duration-300">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Assessment Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300"><i class="fab fa-linkedin text-2xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300"><i class="fab fa-twitter text-2xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300"><i class="fab fa-github text-2xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300"><i class="fab fa-youtube text-2xl"></i></a>
+            </div>
+            <div class="border-t border-gray-800 pt-6">
+                <p>&copy; 2024 Your Company Name. All rights reserved. | Azure Services | Cloud Migration | Digital Transformation</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
